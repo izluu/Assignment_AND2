@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assignment_AND2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary"> @color/Lavender</item>
+        <item name="colorPrimaryVariant"> @color/Lavender</item>
+        <item name="colorOnPrimary"> @color/white</item>
+        <item name="colorSecondary"> @color/Teal_200</item>
+        <item name="colorSecondaryVariant"> @color/Teal_700</item>
+        <item name="colorOnSecondary"> @color/black</item>
+        <item name="android:statusBarColor"> ?attr/colorPrimaryVariant</item>
+
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">
+            @anim/slide_in
+        </item>
+        <item name="android:windowExitAnimation">
+            @anim/slide_out
+        </item>
+    </style>
+
+
+    <style name="Theme.Assignment_AND2" parent="Base.Theme.Assignment_AND2" />
+</resources>
